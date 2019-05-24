@@ -33,6 +33,7 @@ public class ThVisualizza extends Thread {
          numDispariIns=ptrDati.getNumDispariInseriti();
          numPariLetti=ptrDati.getNumPariLetti();
          numDispariLetti=ptrDati.getNumDispariLetti();
+        
          System.out.println("Numero generato: " + buffer);
          System.out.println("Numeri pari inseriti: " +  numPariIns);
          System.out.println("Numeri dispari inseriti: " + numDispariIns);

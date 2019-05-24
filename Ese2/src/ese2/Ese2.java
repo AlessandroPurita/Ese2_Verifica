@@ -41,12 +41,12 @@ public class Ese2 {
             thNumPariLetti.join();
             thNumDispariLetti.join();
             int zerolet=0;
-            if( ptrDati.getNumDispariLetti()>ptrDati.getNumPariLetti())
+            if( ptrDati.getNumDispariLetti()>ptrDati.getNumPariLetti()&&(ptrDati.getNumPariLetti()>0))
             {
              zerolet= ptrDati.getNumDispariLetti()-ptrDati.getNumPariLetti();
             
             }
-            if( ptrDati.getNumDispariLetti()>ptrDati.getNumPariLetti())
+            if( (ptrDati.getNumDispariLetti()<ptrDati.getNumPariLetti())&&(ptrDati.getNumDispariLetti()>0))
             {
              zerolet= ptrDati.getNumPariLetti()-ptrDati.getNumDispariLetti();
             
